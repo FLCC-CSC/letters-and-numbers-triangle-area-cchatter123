@@ -1,8 +1,8 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 2/18/2025
+# BRIEF DESCRIPTION:  Getting the base and area of a triangle then calculating the area
 
 
 
@@ -16,12 +16,13 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-    
-    
-    
-    
-    
-    
+
+height = int(input("Enter the height: "))
+base = int(input("Enter the base: "))
+area = (base*height)/2
+print()
+print(f'The area of the triangle is {area}')
+
     
     
     
